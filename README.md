@@ -33,7 +33,6 @@ A full-stack application that helps users explore Bible passages and generate AI
 - Node.js 18 or later
 - Docker and Docker Compose
 - API keys for:
-  - Scripture API (https://scripture.api.bible/)
   - OpenAI API
 
 ## Setup
@@ -55,7 +54,7 @@ cp .env.example .env
 Edit `.env` and add your API keys:
 ```
 PORT=3001
-BIBLE_API_KEY=your_bible_api_key_here
+OPENAI_API_KEY=open_ai_api_key_here
 ```
 
 3. Install dependencies:
